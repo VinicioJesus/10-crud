@@ -1,6 +1,7 @@
 'use strict'
 
-const url = 'https://testeleonid.herokuapp.com/clientes'
+// const url = 'https://testeleonid.herokuapp.com/clientes'
+const url = "http://localhost/vinicio/backend-php/"
 
 const readClients = async(id='') => {
     const response = await fetch(`${url}/${id}`)

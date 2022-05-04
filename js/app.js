@@ -48,7 +48,7 @@ const saveClient = async() => {
     updateTable()
 }
 
-
+console.log(fillName);
 
 const fillName = (client) => {
     document.getElementById('nome').value = client.fillName
@@ -98,6 +98,8 @@ globalThis.delClient = async(id) => {
 // }
 
 updateTable()
+
+console.log(globalThis);
 
 // Eventos
 document.getElementById('cadastrarCliente').addEventListener('click', openModal)

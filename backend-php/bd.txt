@@ -1,0 +1,17 @@
+CREATE DATABASE empresa;
+
+CREATE TABLE clientes
+(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(50) NOT NULL,
+	email VARCHAR(30),
+	celular VARCHAR(11),
+	cidade VARCHAR(30)
+);
+
+
+insert into clientes (nome, email, celular, cidade)
+         values('fernando','fernando@gmail.com','11971657461','Itapevi');
+insert into clientes (nome, email, celular, cidade)
+         values('leonid','leonid@gmail.com','11974513652','Jandira');
+
